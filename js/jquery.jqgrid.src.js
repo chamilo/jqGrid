@@ -938,7 +938,7 @@
 					footer: "modal-footer",
 					content: "modal-content",
 					hr: "d-none",
-					closeButton: "btn btn-xs btn-outline-primary",
+					closeButton: "btn btn-sm btn-outline-primary",
 					fmButton: "btn btn-outline-secondary",
 					dataField: "form-control",
 					viewCellLabel: "",
@@ -959,7 +959,7 @@
 					tdStart: "",
 					tdWithIcon: "",
 					buttonDiv: "",
-					button: "btn btn-xs",
+					button: "btn btn-sm",
 					tdData: "",
 					legacyTable: "table table-condensed table-hover table-bordered"
 				},
@@ -971,35 +971,35 @@
 				gridTitle: "",
 				gridError: "alert alert-danger",
 				gridErrorText: "sr-only",
-				titleButton: "btn btn-xs btn-outline-primary",
+				titleButton: "btn btn-sm btn-outline-primary",
 				actionsDiv: "",
-				actionsButton: "btn btn-xs btn-outline-secondary",
+				actionsButton: "btn btn-sm btn-outline-secondary",
 				toolbarUpper: "",
 				toolbarBottom: "",
 				pager: {
 					pager: "card-footer",
-					pagerButton: "btn btn-xs",
+					pagerButton: "btn btn-sm",
 					pagerInput: "form-control",
 					pagerSelect: "form-control"
 				},
-				navButton: "btn btn-xs",
+				navButton: "btn btn-sm",
 				searchDialog: {
 					operator: "form-control",
 					label: "form-control",
 					elem: "form-control",
 					operationGroup: "form-inline",
-					addRuleButton: "btn btn-xs btn-default",
-					deleteRuleButton: "btn btn-xs btn-default",
+					addRuleButton: "btn btn-sm btn-default",
+					deleteRuleButton: "btn btn-sm btn-default",
 					operationSelect: "form-control",
-					addGroupButton: "btn btn-xs btn-default",
-					deleteGroupButton: "btn btn-xs btn-default"
+					addGroupButton: "btn btn-sm btn-default",
+					deleteGroupButton: "btn btn-sm btn-default"
 				},
 				searchToolbar: {
 					menu: "dropdown-menu",
 					menuItem: "",
 					menuItemButton: "dropdown-item",
-					operButton: "btn btn-xs btn-outline-secondary",
-					clearButton: "btn btn-xs btn-outline-secondary"
+					operButton: "btn btn-sm btn-outline-secondary",
+					clearButton: "btn btn-sm btn-outline-secondary"
 				},
 				top: "ui-jqgrid-bootstrap-corner-top",
 				bottom: "ui-jqgrid-bootstrap-corner-bottom",
@@ -11628,7 +11628,7 @@
 	 * http://www.codeproject.com/KB/scripting/json-filtering.aspx
 	 *
 	 * The filter uses JSON entities to hold filter rules and groups. Here is an example of a filter:
-
+	
 	{ "groupOp": "AND",
 		  "groups" : [
 			{ "groupOp": "OR",
@@ -11642,7 +11642,7 @@
 			{ "field": "name", "op": "eq", "data": "Romania" },
 			{ "field": "id", "op": "le", "data": "1"}
 		  ]
-	}
+}
 	*/
 	// begin module grid.filter
 	$.fn.jqFilter = function (arg) {
@@ -12458,21 +12458,21 @@
 
 	/**
 		The below work is licensed under Creative Commons GNU LGPL License.
-
+	
 		Original work:
-
+	
 		License:     http://creativecommons.org/licenses/LGPL/2.1/
 		Author:      Stefan Goessner/2006
 		Web:         http://goessner.net/
-
+	
 		Modifications made:
-
+	
 		Version:     0.9-p5
 		Description: Restructured code, JSLint validated (no strict whitespaces),
 					 added handling of empty arrays, empty strings, and int/floats values.
 		Author:      Michael Schøler/2008-01-29
 		Web:         http://michael.hinnerup.net/blog/2008/01/26/converting-json-to-xml-and-xml-to-json/
-
+	
 		Description: json2xml added support to convert functions as CDATA
 					 so it will be easy to write characters that cause some problems when convert
 		Author:      Tony Tomov
