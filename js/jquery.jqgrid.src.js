@@ -914,7 +914,7 @@
 			},
 			bootstrap4: {
 				gBox: "ui-jqgrid-bootstrap",
-				gView: "card",
+				gView: "card mb-0",
 				overlay: "modal-backdrop",
 				loading: "alert alert-info",
 				hDiv: "",
