@@ -244,6 +244,12 @@ module.exports = function (grunt) {
 						// "sources":["css/ui.jqgrid.css"] in ui.jqgrid.min.css.map is wrong!!!
 						// one have to fix it to "sources":["ui.jqgrid.css"]
 					},
+                    {
+                        src: "css/ui.jqgrid.bootstrap4.css",
+                        dest: "css/ui.jqgrid.min.css"
+                        // "sources":["css/ui.jqgrid.bootstrap4.css"] in ui.jqgrid.min.css.map is wrong!!!
+                        // one have to fix it to "sources":["ui.jqgrid.bootstrap4.css"]
+                    },
 					{
 						src: "plugins/css/ui.multiselect.css",
 						dest: "plugins/css/ui.multiselect.min.css"
@@ -287,6 +293,17 @@ module.exports = function (grunt) {
 					}]
 				}
 			},
+            cssmin_jqgrid_bootstrap: {
+                src: "css/ui.jqgrid.bootstrap4.min.css.map",
+                dest: "./",
+                options: {
+                    patterns: [{
+                        // "sources":["css\\ui.jqgrid.bootstrap4.css"]
+                        match: /\"sources\":\[\"css\\\\ui\.jqgrid\.bootstrap\.css\"\],/,
+                        replacement: "\"sources\":[\"ui.jqgrid.bootstrap4.css\"],"
+                    }]
+                }
+            },
 			cssmin_multiselect: {
 				src: "plugins/css/ui.multiselect.min.css.map",
 				dest: "./",
@@ -391,7 +408,8 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks("grunt-newer");
 
 	grunt.registerTask("default", ["newer:concat:all", "newer:jshint:all", "newer:tslint", "ts:all", "newer:jscs:all",
-		"newer:cssmin:target", "newer:replace:cssmin_jqgrid", "newer:replace:cssmin_multiselect", "uglify:all",
+		"newer:cssmin:target", "newer:replace:cssmin_jqgrid", "newer:replace:cssmin_jqgrid_bootstrap",
+		"newer:replace:cssmin_multiselect", "uglify:all",
 		"copy"]);
 	grunt.registerTask("all", ["clean", "default"]);
 };
