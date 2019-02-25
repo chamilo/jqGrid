@@ -412,7 +412,7 @@
 	margin: 1px 0 0 0;
 }
 
-/* Grig body */ 
+/* Grig body */
 .ui-jqgrid .ui-jqgrid-bdiv {
 	min-height: 1px;
 	position: relative;
@@ -1178,7 +1178,7 @@ a.clearsearchclass {
 .ui-menu-jqueryui .ui-jqgrid-menu-item .g-menu-item:hover {
 	font-weight: normal;
 }
- 
+
 .ui-search-oper {
 	padding: 0;
 }

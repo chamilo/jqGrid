@@ -733,6 +733,7 @@
 				},
 				dialog: {
 					header: "ui-widget-header ui-dialog-titlebar ui-corner-all ui-helper-clearfix",
+					title: "",
 					window: "ui-jqgrid-jquery-ui ui-widget ui-widget-content ui-corner-all ui-front",
 					document: "",
 					subdocument: "",
@@ -825,6 +826,7 @@
 				},
 				dialog: {
 					header: "modal-header",
+					title: "modal-title",
 					window: "modal ui-jqgrid-bootstrap",
 					document: "modal-dialog",
 					subdocument: "modal-content",
@@ -931,6 +933,7 @@
 				},
 				dialog: {
 					header: "modal-header",
+					title: "modal-title h5",
 					window: "modal ui-jqgrid-bootstrap",
 					document: "modal-dialog",
 					subdocument: "modal-content",
@@ -938,7 +941,7 @@
 					footer: "modal-footer",
 					content: "modal-content",
 					hr: "d-none",
-					closeButton: "btn btn-sm btn-outline-primary",
+					closeButton: "close",
 					fmButton: "btn btn-outline-secondary",
 					dataField: "form-control",
 					viewCellLabel: "",
@@ -988,11 +991,11 @@
 					label: "form-control",
 					elem: "form-control",
 					operationGroup: "form-inline",
-					addRuleButton: "btn btn-sm btn-default",
-					deleteRuleButton: "btn btn-sm btn-default",
+					addRuleButton: "btn btn-sm btn-secondary",
+					deleteRuleButton: "btn btn-sm btn-primary",
 					operationSelect: "form-control",
-					addGroupButton: "btn btn-sm btn-default",
-					deleteGroupButton: "btn btn-sm btn-default"
+					addGroupButton: "btn btn-sm btn-secondary",
+					deleteGroupButton: "btn btn-sm btn-primary"
 				},
 				searchToolbar: {
 					menu: "dropdown-menu",
