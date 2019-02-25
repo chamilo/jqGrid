@@ -37,12 +37,6 @@
 .ui-jqgrid .ui-jqgrid-titlebar,
 .ui-jqgrid .ui-jqgrid-errorbar,
 .ui-jqdialog .ui-jqdialog-titlebar {
-	padding: .3em .3em .3em .3em;
-	position: relative;
-	font-size: 12px;
-	border-left: 0 none;
-	border-right: 0 none;
-	border-top: 0 none;
 }
 .ui-jqgrid-errorbar {
 	max-height: 100px;
@@ -60,28 +54,6 @@
 /* Close/Hide button */
 .ui-jqgrid-titlebar > .ui-jqgrid-titlebar-close,
 .ui-jqdialog-titlebar > .ui-jqdialog-titlebar-close {
-	vertical-align: middle;
-	text-align: center;
-	text-decoration: none;
-	position: absolute;
-	top: 50%;
-	width: 1.4em;
-	line-height: 1.5em;
-	font-size: 12px;
-	margin: -0.7em 0 0 0;
-	padding: .2em;
-	border: 1px solid transparent;
-	height: 1.4em;
-	cursor: pointer;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	-ms-touch-action: manipulation;
-	touch-action: manipulation;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .ui-jqgrid-jquery-ui .ui-jqdialog-titlebar > .ui-jqdialog-titlebar-close {
@@ -94,15 +66,12 @@
 	left: .1em;
 }
 .ui-jqdialog .ui-jqdialog-titlebar-ltr .ui-jqdialog-titlebar-close {
-	right: .3em;
 }
 .ui-jqdialog .ui-jqdialog-titlebar-rtl .ui-jqdialog-titlebar-close {
 	left: .3em;
 }
 .ui-jqgrid-titlebar > .ui-jqgrid-titlebar-close,
 .ui-jqdialog-titlebar > .ui-jqdialog-titlebar-close {
-	-ms-border-radius: .5em;
-	border-radius: .5em;
 }
 
 .ui-jqgrid .ui-jqgrid-caption .ui-jqgrid-title,
@@ -159,7 +128,7 @@
 .ui-jqdialog-titlebar-close > .svg-inline--fa {
 	display: block;
 	margin-left: .0625em;
-    margin-top: -.0625em;
+	margin-top: -.0625em;
 }
 .ui-jqgrid .ui-jqgrid-titlebar > .ui-jqgrid-titlebar-close > span.glyphicon {
 	margin-left: -2px;
@@ -179,18 +148,16 @@
 }*/
 .ui-jqdialog .ui-resizable-handle > .ui-icon {
 	right: -1px;
-    bottom: -1px;
+	bottom: -1px;
 }
 .ui-jqdialog .ui-resizable-handle > .fa {
-    font-size: 12px;
-    right: -2px;
-    position: relative;
+	font-size: 12px;
+	right: -2px;
+	position: relative;
 }
 .ui-jqdialog .ui-resizable-handle > .svg-inline--fa {
 	font-size: 12px;
-    right: -1px;
-	/*right: -2px;
-    bottom: -1px;*/
+	right: -1px;
 	position: relative;
 }
 .ui-jqdialog .ui-resizable-handle > .glyphicon {
@@ -361,7 +328,7 @@
 	top: -16px;
 }
 .ui-jqgrid .s-ico > .ui-icon-triangle-1-s {
-    background-position: -65px -16px;
+	background-position: -65px -16px;
 }
 .ui-jqgrid .s-ico > .ui-icon.ui-sort-ltr {
 	margin-left: -3px;
@@ -398,7 +365,7 @@
 	margin: 1px 0 0 0;
 }
 
-/* Grig body */ 
+/* Grig body */
 .ui-jqgrid .ui-jqgrid-bdiv {
 	min-height: 1px;
 	position: relative;
@@ -693,11 +660,8 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 .ui-jqgrid td input,
 .ui-jqgrid td select,
 .ui-jqgrid td textarea {
-	margin: 0;
 }
 .ui-jqgrid td textarea {
-	width: auto;
-	height: auto;
 }
 .ui-jqgrid > .ui-jqgrid-view > .ui-jqgrid-toppager {
 	border-left: 0 none;
@@ -751,7 +715,7 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 	box-sizing: content-box;
 }
 .subgrid-data > .tablediv > .ui-jqgrid > .ui-jqgrid-view {
-    -moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 }
@@ -828,13 +792,11 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 
 /* Modal Window */
 .ui-jqgrid .ui-jqdialog {
-	font-size: 11px;
 }
 .ui-jqdialog {
 	display: none;
 	width: 300px;
 	position: absolute;
-	font-size: 11px;
 	overflow: visible;
 }
 .ui-jqdialog.ui-jqgrid-jquery-ui {
@@ -877,8 +839,6 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 	margin: 0;
 }
 .ui-jqdialog-content .EditTable {
-	width: 100%;
-	margin-bottom: 0;
 }
 .ui-jqdialog-content .DelTable {
 	width: 100%;
@@ -894,16 +854,11 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 	height: auto;
 }
 .ui-jqdialog-content td.EditButton {
-	border-top: 0 none;
-	border-left: 0 none;
-	border-right: 0 none;
-	padding: 5px 0;
+	padding-left: .25rem;
 }
 .ui-jqdialog-content td.EditButton-ltr {
-	text-align: right;
 }
 .ui-jqdialog-content td.EditButton-rtl {
-	text-align: left;
 }
 .ui-jqdialog-content td.navButton {
 	text-align: left;
@@ -967,21 +922,12 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 	width: auto;
 }
 .ui-jqdialog .fm-button {
-	display: inline-block;
-	padding: .4em .5em;
-	text-decoration: none;
-	cursor: pointer;
-	position: relative;
-	text-align: center;
-	zoom: 1;
 }
 .ui-jqdialog.ui-jqgrid-bootstrap .navButton .fm-button {
 	padding: .375em .75em;
 	margin-left: .125em;
 }
 .ui-jqdialog .fm-button > span {
-	display: inline-block;
-	vertical-align: middle;
 }
 .ui-jqdialog .fm-button .fm-button-text {
 	padding: 0 .2em;
@@ -1110,7 +1056,7 @@ select.form-control.ui-pg-selbox:not([size]):not([multiple]) {
 	width: 100%;
 }
 .table-hover .ui-search-table tbody tr:hover {
-    background-color: inherit;
+	background-color: inherit;
 }
 .ui-jqgrid .ui-jqgrid-htable .ui-search-toolbar th {
 	padding: 0 .1em;
@@ -1140,7 +1086,7 @@ a.clearsearchclass {
 .ui-menu-jqueryui .ui-jqgrid-menu-item .g-menu-item:hover {
 	font-weight: normal;
 }
- 
+
 .ui-search-oper {
 	padding: 0;
 }
@@ -1301,7 +1247,6 @@ a.clearsearchclass {
 .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-titlebar .ui-jqgrid-title,
 .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-errorbar .ui-jqgrid-error,
 .ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar .ui-jqdialog-title {
-	font-size: 16px;
 }
 .ui-jqgrid.ui-jqgrid-bootstrap > .ui-jqgrid-view {
 }
@@ -1343,10 +1288,6 @@ a.clearsearchclass {
 }
 .ui-jqgrid.ui-jqgrid-bootstrap .ui-jqgrid-caption,
 .ui-jqdialog.ui-jqgrid-bootstrap .ui-jqdialog-titlebar {
-	-ms-border-top-left-radius: 6px;
-	border-top-left-radius: 6px;
-	-ms-border-top-right-radius: 6px;
-	border-top-right-radius: 6px;
 }
 
 .modal-backdrop.jqgrid-overlay {
@@ -1503,23 +1444,16 @@ a.clearsearchclass {
 	padding: .2em .1em;
 }
 .searchFilter .form-control {
-	padding: .1em;
 }
 .searchFilter .form-control:not([size]):not([multiple]) {
-	height: 2em;
 }
 .searchFilter .btn {
-    margin-left: .125em;
-    padding: .2em .375em;
 }
 .ui-jqgrid .searchFilter table.group td {
-	padding: 1px;
 }
 .ui-jqgrid .searchFilter table {
-	border-spacing: 2px;
 }
 .ui-jqdialog.ui-jqgrid-bootstrap .modal-header .close {
-	margin-top: -0.7em;
 }
 .ui-jqdialog .glyphicon,
 .ui-jqgrid .glyphicon {
@@ -1536,9 +1470,6 @@ a.clearsearchclass {
 .ui-jqgrid .ui-pg-button span.glyphicon {
 	display: inline-block;
 	text-align: center;
-	/*margin-left: auto;
-	margin-right: auto;
-	padding: 0 .1em;*/
 	vertical-align: middle;
 }
 .ui-jqgrid-actions .glyphicon {
@@ -1561,7 +1492,7 @@ a.clearsearchclass {
 }
 .subgrid-data .ui-jqgrid-bootstrap .ui-jqgrid-hdiv .ui-jqgrid-htable,
 .subgrid-data .ui-jqgrid-bootstrap .ui-jqgrid-bdiv .ui-jqgrid-btable {
-    background-color: transparent;
+	background-color: transparent;
 }
 .subgrid-data .ui-jqgrid-legacy-subgrid  {
 	margin: 0;
