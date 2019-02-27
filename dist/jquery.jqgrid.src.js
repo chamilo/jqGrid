@@ -942,12 +942,12 @@
 					content: "modal-content",
 					hr: "d-none",
 					closeButton: "close",
-					fmButton: "btn btn-outline-secondary",
-					dataField: "form-control",
+					fmButton: "btn btn-secondary",
+					dataField: "form-control form-control-sm",
 					viewCellLabel: "",
-					viewLabel: "control-label",
+					viewLabel: "col-form-label",
 					viewCellData: "",
-					viewData: "form-control",
+					viewData: "form-control form-control-sm",
 					leftCorner: "",
 					rightCorner: "",
 					defaultCorner: ""
@@ -981,19 +981,19 @@
 				toolbarBottom: "",
 				pager: {
 					pager: "card-footer",
-					pagerButton: "btn btn-sm",
-					pagerInput: "form-control",
-					pagerSelect: "form-control"
+					pagerButton: "btn btn-sm btn-secondary",
+					pagerInput: "form-control form-control-sm",
+					pagerSelect: "form-control form-control-sm"
 				},
 				navButton: "btn btn-sm",
 				searchDialog: {
-					operator: "form-control",
-					label: "form-control",
-					elem: "form-control",
+					operator: "form-control form-control-sm",
+					label: "form-control form-control-sm",
+					elem: "form-control form-control-sm",
 					operationGroup: "form-inline",
 					addRuleButton: "btn btn-sm btn-secondary",
 					deleteRuleButton: "btn btn-sm btn-primary",
-					operationSelect: "form-control",
+					operationSelect: "form-control form-control-sm",
 					addGroupButton: "btn btn-sm btn-secondary",
 					deleteGroupButton: "btn btn-sm btn-primary"
 				},
